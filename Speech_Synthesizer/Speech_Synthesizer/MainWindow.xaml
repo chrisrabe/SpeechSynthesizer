@@ -10,6 +10,7 @@
         ShowMaxRestoreButton="False"
         ResizeMode="CanMinimize">
     <Grid>
-        
+        <Button x:Name="btnSpeak" Content="Speak" HorizontalAlignment="Left" Margin="250,300,0,0" VerticalAlignment="Top" Width="100" Click="btnSpeak_Click"/>
+        <TextBox x:Name="speechTxt" HorizontalAlignment="Left" Height="200" Margin="50,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" BorderBrush="Black"/>
     </Grid>
 </Controls:MetroWindow>
